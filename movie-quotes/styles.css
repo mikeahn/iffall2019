@@ -1,10 +1,11 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    background-color: rgb(102, 255, 153);
 }
 
 blockquote {
     font-weight: 300;
     text-align: left;
-    margin
+    display: inline-block;
 }

@@ -21,6 +21,10 @@ span {
     text-transform: normal;
 }
 
+.l-transform-capitalize {
+    text-transform: capitalize;
+}
+
 .l-transform-uppercase {
     text-transform: uppercase;
 }

@@ -1,13 +1,19 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    line-height: 16px;
 }
 
 span {
     font-size: 18px;
 }
 
-.description {
+.title{
+    opacity: 0.75;
+    font-weight: 450;
+}
+
+.description::first-line {
     font-size: 32px;
 }
 
@@ -134,5 +140,5 @@ span {
 }
 
 .outer {
-    margin: 50px;
+    margin: 65px;
 }

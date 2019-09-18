@@ -3,12 +3,31 @@
     <head>
         <title>Kygo - Firestone</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div>
             <h1>Kygo - Firestone</h1>
             
             <img src="image/cover.jpg" alt="Italian Trulli">
+
+            <i class="fa fa-play musicButton" id="playID" aria-hidden="true" onclick="play();" ></i>
+            <i class="fa fa-pause musicButton" id="pauseID" aria-hidden="true" onclick="pause();"></i>
+            <script type='text/javascript'>
+                var music = new Audio('music/Firestone.mp3');
+                function play() {
+                    music.play();
+                    document.getElementById("playID").style.display = "none";
+                    document.getElementById("pauseID").style.display = "block";
+                }
+                function pause() {
+                    music.pause();
+                    document.getElementById("playID").style.display = "block";
+                    document.getElementById("pauseID").style.display = "none";
+                }
+            </script>
 
             <p class="lyrics">
                 I'm a flame </br>
@@ -51,9 +70,10 @@
                 Woah </br>
                 Oh oh </br>
             </p>
-            <p class="lyrics">
+            <p class="lyrics firestone">
                 Firestone </br>
             </p>
+            <p class="lyrics">
                 I'm from X, you're from Y </br>
                 Perfect strangers in the night </br>
                 Here we are, come together </br>
@@ -76,6 +96,8 @@
                 Oh oh </br>
                 Firestone </br>
             </p>
+
+            <hr size="1" noshade> 
 
             <footer>
                     <p>Source: LyricFind</p>

@@ -1,10 +1,43 @@
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
 body {
     background-color: azure;
     text-align: center;
 }
 
+.lyrics {
+    font-family: 'Marvel', sans-serif;
+
+}
+
+.firestone {
+    font-size: 110%;
+}
+
 .lyrics::first-line {
     font-weight: 600;
+}
+
+i{
+    font-size: 200px !important;
+}
+
+.musicButton{
+    position: fixed;
+    bottom: 55%;
+    right: 15%;
+    width: 10%;
+    float: right;
+}
+
+i {
+    height: 15%;
+}
+
+#pauseID {
+    display: none;
 }
 
 img {
@@ -14,6 +47,6 @@ img {
 
 footer {
     font-weight: 100;
-    font-size: 13px;
+    font-size: 11px;
     font-style: italic;
 }

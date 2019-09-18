@@ -12,16 +12,26 @@ body {
 
 }
 
-.firestone {
-    font-size: 110%;
+.title {
+    background-color: hsla(0, 75%, 60%, 0.5);
+    border-right: 5px solid;
+    border-right-color: hsla(60,100%,50%, 0.8);
 }
 
 .lyrics::first-line {
-    font-weight: 600;
+    font-weight: 900;
+    font-size:105%;
+}
+
+.firestone {
+    font-family: 'Manjari', sans-serif;
+    font-weight: 800;
+    font-size: 90%;
+    color: 	hsl(120, 100%, 10%)
 }
 
 i{
-    font-size: 200px !important;
+    font-size: 100px !important;
 }
 
 .musicButton{
@@ -31,6 +41,11 @@ i{
     width: 10%;
     float: right;
 }
+
+.title {
+    display: inline-block;
+}
+
 
 i {
     height: 15%;

@@ -51,6 +51,10 @@ span {
     text-decoration-line: underline overline;
 }
 
+.t-decoration-linethrough {
+    text-decoration-line: line-through;
+}
+
 .l-spacing-0 {
     letter-spacing: 0px;
 }

@@ -1,0 +1,19 @@
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+.lyrics::first-line {
+    font-weight: 600;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+footer {
+    font-weight: 100;
+    font-size: 13px;
+    font-style: italic;
+}

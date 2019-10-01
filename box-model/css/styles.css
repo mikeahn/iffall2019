@@ -2,6 +2,10 @@ body {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+span {
+    font-style: italic;
+}
+
 #s1 {
     text-align: center;
     width: 100%;
@@ -64,4 +68,41 @@ body {
     margin-top: 5px;
     margin-left: 40px;
     margin-bottom: 40px;
+}
+
+#s3 {
+    width: 100%;
+    height: 715px;
+    background-color: forestgreen;
+    opacity: 0.5;
+}
+
+#s3  h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    font-size: 35px;
+    letter-spacing: 2.7px;
+    margin-bottom: 37px;
+}
+
+#s3 img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: white;
+}
+
+#s3 div {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 40%;
+}
+
+#s3 div:nth-of-type(2n-1) {
+    margin-left: 35px;
+}
+
+#s3 div:nth-of-type(2n) {
+    margin-left: 65px;
 }

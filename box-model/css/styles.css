@@ -97,15 +97,15 @@ body {
 #s3 > div {
     margin-bottom: 25px;
     display: inline-block;
-    width: 40%;
+    width: 35%;
 }
 
 #s3 div:nth-of-type(2n-1) {
-    margin-left: 35px;
+    margin-left: 160px;
 }
 
 #s3 div:nth-of-type(2n) {
-    margin-left: 65px;
+    margin-left: 30px;
 }
 
 #s3 div:nth-of-type(2n-1) span {

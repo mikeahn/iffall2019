@@ -42,19 +42,21 @@ body {
 
 #s2 #d1 {
     margin-top: 32px;
-    margin-left: 40px;
+    margin-left: 160px;
     font-size: 18px;
 }
 
 #s2 #d2 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 160px;
+    margin-right: 150px;
     font-size: 18px;
 }
 
 #s2 #d3 {
     margin-top: 15px;
-    margin-left: 40px;
+    margin-left: 160px;
+    margin-right: 150px;
     font-size: 18px;
 }
 
@@ -63,7 +65,7 @@ body {
     height: 300px;
     background-color: azure;
     float: right;
-    margin-right: 40px;
+    margin-right: 160px;
     margin-top: 5px;
     margin-left: 40px;
     margin-bottom: 40px;

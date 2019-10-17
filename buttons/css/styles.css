@@ -142,28 +142,6 @@ a#btn_apple:hover {
     color: #fff;
 }
 
-/*
-a#btn_lyft {
-    display: block;
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-    border-radius: 50px;
-    margin: auto;
-    margin-top: 75px;
-    padding-top: 8px;
-    background-color: #fff;
-    color: rgb(163, 170, 174);
-    text-align: center;
-    font-size: 60px;
-}
-
-a#btn_lyft:hover {
-    background-color:rgb(163, 170, 174);
-    color: #fff;
-}
-*/
-
 a#btn_lyft {
     display: inline-block;
     margin:auto;
@@ -172,7 +150,7 @@ a#btn_lyft {
     background-color: #fff;
     color: #eb1478;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -182,4 +160,222 @@ a#btn_lyft {
 a#btn_lyft:hover {
     color: #fff;
     background-color: #eb1478;
+    border-radius: 25px;
+}
+
+a#btn_instagram {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #fff;
+    color: #222;
+    text-align: center;
+    font-size: 60px;
+}
+
+a#btn_instagram:hover {
+    color: rgb(129,52,175);
+}
+
+a#btn_facebook {
+    display: block;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #fff;
+    color: rgb(66,103,178);
+    text-align: center;
+    font-size: 60px;
+}
+
+a#btn_facebook:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(66,103,178);
+}
+
+a#btn_ibm {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+}
+
+a#btn_ibm span:nth-child(1){
+    color:#000;
+}
+
+a#btn_ibm span:nth-child(2){
+    color:#555;
+}
+
+a#btn_ibm span:nth-child(3){
+    color:#aaa;
+}
+
+a#btn_ibm span:hover:nth-child(1){
+    color: rgb(5, 74, 218);
+}
+
+a#btn_ibm span:hover:nth-child(2){
+    color:rgb(161,25,80);
+}
+
+a#btn_ibm span:hover:nth-child(3){
+    color:rgb(110,50,201);
+}
+
+a#btn_newyorker {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: black;
+}
+
+a#btn_newyorker:hover {
+    transform: skewX(-10deg);
+}
+
+a#btn_nbc {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: black;
+}
+
+a#btn_nbc:hover {
+    border: 2px solid #fc9a18;
+}
+
+a#btn_tesla {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: #e82127;
+}
+
+a#btn_tesla:hover {
+    text-shadow: -35px 0px #ccc;
+    transform: translate(35px) scale(1.04);
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: #00B0B9;
+}
+
+a#btn_fitbit:hover {
+    transform: rotate(720deg);
+    transition: transform 1s;
+}
+
+a#btn_samsung {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: #0c4da2;
+}
+
+a#btn_samsung:hover {
+    background-color: #0c4da2;
+    color: #fff;
+    border-radius: 100px 40px;
+    transform: scale(1.1);
+}
+
+a#btn_ideo {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    color: #000;
+}
+
+a#btn_ideo:hover {
+    letter-spacing: 10px;
+    color: rgba(0,0,0,0.5);
+}
+
+a#btn_nike {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+a#btn_nike:hover:after{
+    content: ' : Just Do It';
+    font-size: 25px;
+    color: #bbb;
 }

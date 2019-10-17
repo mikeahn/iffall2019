@@ -294,8 +294,8 @@ a#btn_tesla {
 }
 
 a#btn_tesla:hover {
-    text-shadow: -35px 0px #ccc;
-    transform: translate(35px) scale(1.04);
+    text-shadow: -5px 0px #ccc;
+    transform: translate(5px) scale(1.04);
 }
 
 a#btn_fitbit {
@@ -315,7 +315,7 @@ a#btn_fitbit {
 
 a#btn_fitbit:hover {
     transform: rotate(720deg);
-    transition: transform 1s;
+    transition: transform 1.5s;
 }
 
 a#btn_samsung {
@@ -378,4 +378,67 @@ a#btn_nike:hover:after{
     content: ' : Just Do It';
     font-size: 25px;
     color: #bbb;
+}
+
+a#btn_cocacola {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F40009;
+}
+
+a#btn_cocacola:hover span{
+    display: none;
+}
+
+a#btn_cocacola:hover:after {
+    content: "Cola";
+}
+
+
+a#btn_harleydavidson {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FF671F;
+    text-shadow: 1px 1px #000000;
+}
+
+a#btn_harleydavidson:hover {
+    color:white;
+    text-shadow: 1px 1px #FF671F;
+}
+
+a#btn_sardella {
+    display: inline-block;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0e18af;
+    text-shadow: 1px 1px black;;
+}
+
+a#btn_sardella:hover {
+    color:rgb(83, 6, 207);
+    text-shadow: -3px 0px black;
+    transform: translate(3px) scale(1.5);
+
 }

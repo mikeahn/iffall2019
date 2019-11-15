@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+a {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.quoteContainer1 {
+    height: 100%;
+    background-image: url(../images/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quoteContainer2 {
+    height: 100%;
+    background-image: url(../images/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quoteContainer3 {
+    height: 100%;
+    background-image: url(../images/image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quoteContainer1 * {
+    color: black;
+    text-shadow: 2px 2px whitesmoke;
+}
+.quoteContainer2 * {
+    color: beige;
+    text-shadow: 2px 2px black;
+}
+.quoteContainer3 * {
+    color: darkolivegreen;
+    text-shadow: 2px 2px black;
+}
+.movieQuote {
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    bottom: 0px;
+    height: 35%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.movieTitle {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+.movieQuote2 {
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    bottom: 0px;
+    height: 35%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.movieTitle2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1050px) {
+    .movieTitle {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 920px) {
+    .movieQuote {
+        position: static;
+        left: auto;
+        height: auto;
+        bottom: auto;
+        transform: translate(0,0);
+        text-align: center;
+        font-size: 8.1vw;
+        margin: auto;
+    }
+    .movieTitle {
+        visibility: visible;
+        font-size: 5vw;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 1250px) {
+    .movieTitle2 {
+        visibility: hidden;
+    }
+}
+@media (max-width: 940px) {
+    .movieQuote2 {
+        position: static;
+        left: auto;
+        height: auto;
+        bottom: auto;
+        transform: translate(0,0);
+        text-align: center;
+        font-size: 7.8vw;
+        margin: auto;
+    }
+}
+@media (max-width: 800px) {
+    .movieTitle2 {
+        visibility: visible;
+        font-size: 5vw;
+        padding-bottom: 15px;
+    }
+}

@@ -16,19 +16,6 @@
       display:inline-block;
       position:relative;
     }
-    #container .box > div {
-      width:50%;
-      height:50%;
-      position:absolute;
-      top:50%;
-      left:50%;
-      margin:-50px 0 0 -50px;
-      line-height:1;
-      background-color: #E16036;
-      opacity: 0.95;
-      font-size: 18px;
-      white-space: normal;
-    }
     #container {
       overflow-y:scroll;
       overflow-x:hidden;
@@ -107,6 +94,7 @@
       align-items: stretch;
       justify-content: space-between;
       width: 100%;
+      padding-left: 10px;
   }
 
   li {
@@ -118,7 +106,7 @@
   li a {
     display: block;
     font-family: 'Bebas Neue', cursive;
-    color: green;
+    color: black;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -137,4 +125,88 @@
       padding: 15px;
       border-radius: 20px;
       font-family: 'Bebas Neue', cursive;
+  }
+
+  #div1 {
+    width:50%;
+    height:40%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: #E16036;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  #div2 {
+    width:25%;
+    height:50%;
+    position:absolute;
+    top:50%;
+    left:75%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: #ffcc00;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  #div3 {
+    width:93%;
+    height:30%;
+    position:absolute;
+    top:65%;
+    left:5%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: #cccc00;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  #div4 {
+    width:30%;
+    height:50%;
+    position:absolute;
+    top:15%;
+    right:6%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: white;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  #div5 {
+    width:45%;
+    height:77%;
+    position:absolute;
+    top:15%;
+    right:2%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: #ff3333;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  #div6 {
+    width:25%;
+    height:60%;
+    position:absolute;
+    top:10%;
+    left:4%;
+    margin:-50px 0 0 -50px;
+    line-height:1;
+    background-color: white;
+    opacity: 0.95;
+    font-size: 18px;
+    white-space: normal;
   }

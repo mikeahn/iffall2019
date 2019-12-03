@@ -1,0 +1,140 @@
+* {
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: white;
+  }
+  body {
+      margin:0;
+      font-family:Georgia;
+    }
+    #container .box {
+      width:100vw;
+      height:100vh;
+      display:inline-block;
+      position:relative;
+    }
+    #container .box > div {
+      width:50%;
+      height:50%;
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin:-50px 0 0 -50px;
+      line-height:1;
+      background-color: #E16036;
+      opacity: 0.95;
+      font-size: 18px;
+      white-space: normal;
+    }
+    #container {
+      overflow-y:scroll;
+      overflow-x:hidden;
+      transform: rotate(270deg) translateX(-100%);
+      transform-origin: top left;
+      background-color:#999;
+      position:absolute;
+      width:100vh;
+      height:100vw;
+    }
+    #container2 {
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+      white-space:nowrap;
+      font-size:0;
+    }
+    #scrollbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      width: 0%;
+      height: 24px;
+      z-index: 1;
+  }
+  
+  #scrollbar-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #E16036;
+  }
+  .box {
+      background-size: cover;
+  }
+
+  #box1 {
+      background-image: url(./images/image1.png);
+  }
+
+  #box2 {
+      background-image: url(./images/image2.jpg);
+  }
+
+  #box3 {
+      background-image: url(./images/image3.jpg);
+  }
+
+  #box4 {
+      background-image: url(./images/image4.png);
+  }
+
+  #box5 {
+      background-image: url(./images/image5.png);
+  }
+ 
+  #box6 {
+    background-image: url(./images/image6.jpg);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  span {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  li {
+    width: 100px;
+    display: block;
+    flex: 0 1 auto;
+  }
+  
+  li a {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+  li a:hover:not(.active) {
+    color: darkslategrey;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .divs {
+      padding: 15px;
+      border-radius: 20px;
+      font-family: 'Bebas Neue', cursive;
+  }
